@@ -14,7 +14,7 @@ from typing import Optional
 from io import BytesIO
 
 from PyPDF2 import PdfReader
-from langchain.text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
