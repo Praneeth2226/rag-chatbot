@@ -13,3 +13,4 @@ langchain-openai>=0.0.5
 langchain-text-splitters
 langchain
 langchain-community
+langchain==0.0.353
